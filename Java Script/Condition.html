@@ -7,12 +7,13 @@
 </head>
 <body style="background-color: #212121;">
     <p id="demo"></p>
+    <p id="demo2"></p>
 </body>
 <script>
+    // code for for loop 
     const car = ["car1","car2","car3"]
     let len = car.length;
     let text = ""
-    let tezt2 =""
     for(let i =0 ;i<len;i++){
         // document.write(car[i]);
         // console.log(car[i]);
@@ -22,6 +23,15 @@
         text +=car[i]+"<br>";
     }
     document.getElementById("demo").innerHTML = text ;
-
+</script>
+<script>
+    // code for while loop
+    let i =1;
+    let text2 =" "
+    while(i<=5){
+        document.write(" <br> hello");
+        i++
+    }
+    document.getElementById("demo2").innerHTML = text2;
 </script>
 </html>
