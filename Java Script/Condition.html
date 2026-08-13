@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Condition JS </title>
 </head>
-<body>
-    <script></script>
+<body style="background-color: #212121;">
+    <p id="demo"></p>
 </body>
+<script>
+    const car = ["car1","car2","car3"]
+    let len = car.length;
+    let text = ""
+    let tezt2 =""
+    for(let i =0 ;i<len;i++){
+        // document.write(car[i]);
+        // console.log(car[i]);
+        if(i==1){
+            continue;
+        }
+        text +=car[i]+"<br>";
+    }
+    document.getElementById("demo").innerHTML = text ;
+
+</script>
 </html>
